@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+function profile {
+  local shome="${_inspect_home:-"$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"}"
+}
+
+profile
